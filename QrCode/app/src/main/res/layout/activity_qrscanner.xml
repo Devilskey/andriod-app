@@ -8,8 +8,8 @@
 
     <com.budiyev.android.codescanner.CodeScannerView
         android:id="@+id/scannerView"
-        android:layout_width="413dp"
-        android:layout_height="731dp"
+        android:layout_width="402dp"
+        android:layout_height="737dp"
         app:frameAspectRatioHeight="1"
         app:frameAspectRatioWidth="1"
         app:frameColor="@android:color/white"
@@ -30,7 +30,6 @@
         android:layout_height="34dp"
         android:layout_marginEnd="100dp"
         android:layout_marginBottom="52dp"
-        android:text="TEST"
         android:textAlignment="center"
         android:textColor="#FFC107"
         android:textSize="20sp"
@@ -41,12 +40,12 @@
         android:id="@+id/button"
         android:layout_width="130dp"
         android:layout_height="81dp"
-        android:layout_marginStart="282dp"
+        android:layout_marginStart="130dp"
         android:onClick="GOTOMENU"
         android:text="menu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />

@@ -34,11 +34,11 @@ public class MainActivity extends AppCompatActivity {
         brugenabled = loadCheck("C");
 
         if(!muskenebled )
-            datamusk.setText("ga naar de pagina over de 4de musketier");
+            datamusk.setText("ga naar de pagina over de 4de musketiers");
         if(!muurenabled)
-            datamuur.setText("ga naar de pagina over het verstigings werk");
+            datamuur.setText("ga naar de pagina over het verdedigingswerk");
         if(!brugenabled)
-            databrug.setText("ga naar de pagina over de sint Servaas brug");
+            databrug.setText("ga naar de pagina over de Sint Servaasbrug");
 
 
     }
